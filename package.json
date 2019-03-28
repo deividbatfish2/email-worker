@@ -1,0 +1,22 @@
+{
+  "name": "email-worker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/worker.js",
+  "scripts": {
+    "dev": "cross-env ENVIRONMENT=dev nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "0.5.3",
+    "dotenv": "7.0.0",
+    "nodemailer": "6.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "5.2.0",
+    "nodemon": "1.18.10"
+  }
+}
